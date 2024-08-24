@@ -1,0 +1,39 @@
+/* @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
+
+body {
+    font-family: 'Nanum Gothic';
+}
+
+.header {
+    padding-left: 10px;
+}
+
+.maiin {
+    display: table;
+}
+
+.navigation {
+    width: 150px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: table-cell;
+}
+
+.section {
+    padding-left: 10px;
+    display: table-cell;    
+}
+
+.footer {
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .main {
+        display: block;
+    }
+    .navigation {
+        width: 480px;
+    }
+}
